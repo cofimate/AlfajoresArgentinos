@@ -1,0 +1,92 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #837646;
+}
+
+header h2 {
+    color: #837646;
+}
+
+footer {
+    background-image: linear-gradient(#805A46, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #3C1321, #805A46, #805A46);
+    color: white;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #805A46;
+}
+
+.backlitebrown {
+    color : #837646;
+}
+
+.backred {
+    color :red;
+    background-color: white;
+}
+
+.backblue {
+    color : white;
+    background-color: blue;
+}
+
+.carousel-caption {
+    background-color: rgba(243, 231, 231, 0.5);
+}
+
+.carousel {
+    border: solid #000;
+}
+
+.carousel {
+    border: solid grey; 
+    }
+  
+    ol.carousel-indicators {
+      position: absolute;
+      bottom: 5px;
+      margin: 0;
+      left: 0;
+      right: 0;
+      width: auto;
+   }
+
+   ol.carousel-indicators li,
+   ol.carousel-indicators li.active {
+      width: 1rem;
+      height: 1rem;
+      margin: 0;
+      border-radius: 50%;
+      border: 0;
+      background: transparent;
+   }
+   
+   ol.carousel-indicators li {
+      background: rgba(255,255,255,0.39);
+      margin-left: .5rem;
+      margin-right: .5rem;
+   }
+   
+   ol.carousel-indicators li.active {
+      background: black;
+   }
